@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>adidas注册页面</title>
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+
+<div class="nav">
+	<div class="logo">
+		<a href="#">	
+			<img src="img/logo.png" alt="" id="pici">
+		</a>
+	</div>
+	<div class="you">
+		<!-- 导航栏(1) -->
+		<div class="headerone">
+			<a href="#">登录<i class="iconfont icon-denglu"></i></a>
+			<a href="#">
+				在线客服
+				<i class="iconfont icon-xiaoxi1"></i>
+			</a>
+			<a href="#">邮件订阅</a>
+		</div>
+		<!-- 导航栏(2) -->
+		<div class="headertwo">
+			<ul>
+				<li><a href="#">男子</a></li>
+				<li><a href="#">女子</a></li>
+				<li><a href="#">童装</a></li>
+				<li><a href="#">运动</a></li>
+				<li><a href="#">品牌</a></li>
+				<li id="da"><a href="#">miadidas定制</a></li>
+			</ul>
+			<input type="text" class="txtId" id="txtId" placeholder="搜索">
+		</div>
+	</div>
+	<!-- 男子 -->
+			<div id="box" class="box" style="width: 100%;height: 410px;display: none;background-color: white;position:absolute;left:0;top:80px;z-index:99;">
+				<dl id="boxone">
+					<dt>最新活动</dt>
+					<dd>新品上市</dd>
+					<dd>Originals|EQT</dd>
+					<dd>Run|Pureboost DPR</dd>
+					<dd>BB|Harden</dd>
+					<dd>adidas neo|生来好动</dd>
+					<dd>miadidas 个性化定制</dd>
+					<dd>全部男子折扣</dd>
+				</dl>
+				<dl id="boxone">
+					<dt>鞋类</dt>
+					<dd>Originals</dd>
+					<dd>跑步</dd>
+					<dd>adidas neo</dd>
+					<dd>篮球</dd>
+					<dd>户外</dd>
+					<dd>网球</dd>
+					<dd>足球</dd>
+					<dd>拖鞋</dd>
+					<dd>训练</dd>
+					<dd>miadidas 个性化定制</dd>
+				</dl>
+				<dl id="boxone">
+					<dt>服饰类</dt>
+					<dd>上衣</dd>
+					<dd>短袖T恤</dd>
+					<dd>长袖T恤</dd>
+					<dd>马甲</dd>
+					<dd>运动卫衣</dd>
+					<dd>茄克/外套</dd>
+					<dd>运动下装</dd>
+					<dd>泳裤</dd>
+					<dd>比赛服</dd>
+				</dl>
+				<dl id="boxone">
+					<dt>附配件类</dt>
+					<dd>包</dd>
+					<dd>袜子</dd>
+					<dd>帽子/手套/围巾</dd>
+					<dd>足球/篮球</dd>
+					<dd>运动装备</dd>
+				</dl>
+				<dl id="boxone">
+					<dt>运动分类</dt>
+					<dd>跑步</dd>
+					<dd>户外</dd>
+					<dd>训练</dd>
+					<dd>足球</dd>
+					<dd>篮球</dd>
+					<dd>网球</dd>
+					<dd>游泳</dd>
+					<dd>高尔夫</dd>
+				</dl>
+			</div>
+			<!-- 女子 -->
+			<div id="boxtwo" class="box" style="width: 100%;height: 410px;display: none;background-color: white;position:absolute;left:0;top:80px;z-index:99;">
+				<dl id="boxtwotwo">
+					<dt>最新活动</dt>
+					<dd>新品上市</dd>
+					<dd>Originals|EQT</dd>
+					<dd>adidas neo|生来好动</dd>
+					<dd>miadidas 个性化定制</dd>
+					<dd>全部女子折扣</dd>
+				</dl>
+				<dl id="boxtwotwo">
+					<dt>鞋类</dt>
+					<dd>Originals</dd>
+					<dd>adidas neo</dd>
+					<dd>跑步</dd>
+					<dd>户外</dd>
+					<dd>训练</dd>
+					<dd>网球</dd>
+					<dd>拖鞋</dd>
+					<dd>miadidas 个性化定制</dd>
+				</dl>
+				<dl id="boxtwotwo">
+					<dt>服饰类</dt>
+					<dd>上衣</dd>
+					<dd>短袖T恤</dd>
+					<dd>运动卫衣</dd>
+					<dd>长袖T恤</dd>
+					<dd>茄克/外套</dd>
+					<dd>短裙/连衣裙</dd>
+					<dd>运动胸衣</dd>
+					<dd>运动下装</dd>
+					<dd>泳衣/比基尼</dd>
+				</dl>
+				<dl id="boxtwotwo">
+					<dt>附配件类</dt>
+					<dd>包</dd>
+					<dd>袜子</dd>
+					<dd>帽子/手套/围巾</dd>
+					<dd>球类</dd>
+					<dd>运动装备</dd>
+				</dl>
+				<dl id="boxtwotwo">
+					<dt>运动分类</dt>
+					<dd>跑步</dd>
+					<dd>户外</dd>
+					<dd>训练</dd>
+					<dd>室内运动</dd>
+					<dd>足球</dd>
+					<dd>网球</dd>
+					<dd>游泳</dd>
+					<dd>高尔夫</dd>
+				</dl>
+			</div>
+
+			<!-- 童装 -->
+			<div id="boxthree" class="box" style="width: 100%;height: 360px;display: none;background-color: white;position:absolute;left:0;top:80px;z-index:99;">
+				<dl id="boxthreethree">
+					<dt>最新活动</dt>
+					<dd>新品上市</dd>
+					<dd>运动表现</dd>
+					<dd>Originals</dd>
+					<dd>全部女子折扣</dd>
+				</dl>
+				<dl id="boxthreethree">
+					<dt>大童（8-12岁）</dt>
+					<dd>男大童：鞋类</dd>
+					<dd>女大童：鞋类</dd>
+					<dd>男大童：服装</dd>
+					<dd>女大童：服装</dd>
+					<dd>箱包附配件</dd>
+					
+				</dl>
+				<dl id="boxthreethree">
+					<dt>小童（4-8岁）</dt>
+					<dd>男小童：鞋类</dd>
+					<dd>女小童：鞋类</dd>
+					<dd>男小童：服装</dd>
+					<dd>女小童：服装</dd>
+					<dd>箱包附配件</dd>
+				</dl>
+				<dl id="boxthreethree">
+					<dt>婴幼儿（0-4岁）</dt>
+					<dd>男婴童：鞋类</dd>
+					<dd>女婴童：鞋类</dd>
+					<dd>男婴童：服装</dd>
+					<dd>女婴童：服装</dd>
+					<dd>箱包附配件</dd>
+				</dl>
+			</div>
+			<!-- 运动 -->
+			<div id="boxfour" class="box" style="width: 100%;height: 400px;display: none;background-color: white;position:absolute;left:0;top:80px;z-index:99;">
+				<dl id="boxfourfour">
+					<dt>跑步</dt>
+					<dd><img src="img/18.jpg" alt=""></dd>
+					<dd>跑步鞋</dd>
+					<dd>跑步服饰</dd>
+					<dd>UltraBOOST</dd>
+					<dd>PureBOOST</dd>
+					<dd>Alpha Bounce</dd>
+				</dl>
+				<dl id="boxfourfour">
+					<dt>训练</dt>
+					<dd><img src="img/17.jpg" alt=""></dd>
+					<dd>跑步鞋</dd>
+					<dd>训练服饰</dd>
+					<dd>运动装备</dd>
+					<dd>adidas X Wanderlust</dd>
+					<dd>运动胸衣/紧身裤</dd>
+					<dd>Techfit</dd>
+					<dd>Clima</dd>
+				</dl>
+				<dl id="boxfourfour">
+					<dt>足球</dt>
+					<dd><img src="img/21.jpg" alt=""></dd>
+					<dd>足球鞋</dd>
+					<dd>足球服饰</dd>
+					<dd>运动装备</dd>
+					<dd>ACE</dd>
+					<dd>X</dd>
+					<dd>NEMEZIZ</dd>
+					<dd>OCEAN STORM</dd>
+				</dl>
+				<dl id="boxfourfour">
+					<dt>篮球</dt>
+					<dd><img src="img/20.jpg" alt=""></dd>
+					<dd>篮球鞋</dd>
+					<dd>篮球服饰</dd>
+					<dd>James Harden</dd>
+					<dd>Derrick Rose</dd>
+					<dd>Damian Lillard</dd>
+					<dd>Crazy Explosive</dd>
+				</dl>
+				<dl id="boxfourfour">
+					<dt>户外</dt>
+					<dd><img src="img/19.jpg" alt=""></dd>
+					<dd>户外服饰</dd>
+					<dd>运动装备</dd>
+					<dd>户外多功能运动系列</dd>
+					<dd>户外徒步系列</dd>
+					<dd>城市户外系列</dd>
+				</dl>
+				<dl id="boxfourfour">
+					<dt>其他运动</dt>
+					<dd>网球</dd>
+					<dd>高尔夫</dd>
+					<dd>游泳</dd>
+					<dd>室内运动</dd>
+				</dl>
+			</div>
+
+			<!-- 品牌 -->
+			<div id="boxfive" class="box" style="width: 100%;height: 410px;display: none;background-color: white;position:absolute;left:0;top:80px;z-index:99;">
+				<dl id="boxfivefive">
+					<dt><img src="img/23.png" alt=""></dt>
+					<dd><img src="img/29.jpg" alt=""></dd>
+					<dd>跑步鞋</dd>
+					<dd>跑步服饰</dd>
+					<dd>UltraBOOST</dd>
+					<dd>PureBOOST</dd>
+					<dd>Alpha Bounce</dd>
+				</dl>
+				<dl id="boxfivefive">
+					<dt><img src="img/22.png" alt=""></dt>
+					<dd><img src="img/28.jpg" alt=""></dd>
+					<dd>跑步鞋</dd>
+					<dd>训练服饰</dd>
+					<dd>运动装备</dd>
+					<dd>adidas X Wanderlust</dd>
+					<dd>运动胸衣/紧身裤</dd>
+					<dd>Techfit</dd>
+					<dd>Clima</dd>
+				</dl>
+				<dl id="boxfivefive">
+					<dt><img src="img/24.png" alt=""></dt>
+					<dd><img src="img/26.jpg" alt=""></dd>
+					<dd>足球鞋</dd>
+					<dd>足球服饰</dd>
+					<dd>运动装备</dd>
+					<dd>ACE</dd>
+					<dd>X</dd>
+					<dd>NEMEZIZ</dd>
+					<dd>OCEAN STORM</dd>
+				</dl>
+				<dl id="boxfivefive">
+					<dt><img src="img/25.png" alt=""></dt>
+					<dd><img src="img/27.jpg" alt=""></dd>
+					<dd>篮球鞋</dd>
+					<dd>篮球服饰</dd>
+					<dd>James Harden</dd>
+					<dd>Derrick Rose</dd>
+					<dd>Damian Lillard</dd>
+					<dd>Crazy Explosive</dd>
+				</dl>
+				<dl id="boxfivefive">
+					<dt>精选系列</dt>
+					<dd>EQT</dd>
+					<dd>SWIFT</dd>
+					<dd>STAN PHARRELL</dd>
+				</dl>
+			</div>
+
+			<!-- madidas定制 -->
+			<div id="boxsix" class="box" style="width: 100%;height: 400px;display: none;background-color: white;position:absolute;left:0;top:80px;z-index:99;">
+				<dl id="boxsixsix">
+					<dt><img src="img/33.png" alt=""></dt>
+					<dd><img src="img/30.jpg" alt=""></dd>
+					<dd>Swift Runner</dd>
+					<dd>Stan Smith</dd>
+					<dd>EQT</dd>
+					<dd>Superstar</dd>
+					<dd>Spezial</dd>
+					<dd>Gazelle</dd>		
+				</dl>
+				<dl id="boxsixsix">
+					<dt><img src="img/34.jpg" alt=""></dt>
+					<dd><img src="img/31.jpg" alt=""></dd>
+					<dd>Pure Boost</dd>
+					<dd>Adizero Adios</dd>
+					<dd>Energy Cloud</dd>
+					<dd>Pure Boost X</dd>
+					<dd>Supernova</dd>		
+				</dl>
+				<dl id="boxsixsix">
+					<dt><img src="img/35.jpg" alt=""></dt>
+					<dd><img src="img/32.jpg" alt=""></dd>
+					<dd>Dame 3</dd>
+					<dd>D Rose 7</dd>
+					<dd>Crazy Explosive</dd>
+					<dd>Crazylight Boost</dd>		
+				</dl>
+				<dl id="boxsixsix">
+					<dt>其他</dt>
+					<dd>所有男子定制产品</dd>
+					<dd>所有男子定制产品</dd>
+					<dd>所有男子定制产品</dd>
+					<dd>所有女子定制产品</dd>
+					<dd>Derrick Rose</dd>
+					<dd>Damian Lillard</dd>
+					<dd>所有女子定制产品</dd>
+					<dd><img src="img/36.png" alt=""style="width:200px;height:120px;"></dd>
+				</dl>
+			</div>
+</div>
+
+<!-- 登录页面 -->
+
+<div class="denglu">
+	<div class="denglusup">
+		<a href="#">返回</a>
+		<a href="#">登录</a>
+		<a href="#">注册</a>
+		<a href="#">登录</a>
+	</div>
+	<div class="active">
+		<ul>
+			<li><span >1</span>验证您的手机号</li>
+			<li><span id="focu">2</span>完善信息并注册成功</li>
+		</ul>
+	</div>
+
+	<div class="messages">
+		<div class="yanzheng">
+			<h4>验证您的手机号</h4>
+			<p>您是adiCLUB的会员吗？如果您是，请使用您已绑定的手机号码注册，您所有的会员权益将同步至adidas官方商城</p>
+		</div>
+		<div class="txt">
+			<div class="loginmobile">
+				<input type="text" placeholder="手机号"/><br/>
+			</div>
+			<div class="loginrandom">
+				<input type="text" placeholder="请输入验证码"/><br/>
+				<div class="codeimg">
+					<a href="#"></a>
+					<!-- <a href="#">换一个</a> -->
+				</div>
+				<div class="msgb">
+					<span>请输入验证码</span>
+				</div>
+			</div>
+			<div class="loginzhuce">
+				<input type="text" placeholder ="手机验证码">
+				<a href="#">获取验证码</a>
+				<div class="msgbyan">
+					<span>验证码错误</span>
+				</div>
+			</div>
+			<div class="nextch">
+				<a href="#">下一步</a>
+			</div>
+		</div>
+	</div>
+	
+	
+
+
+</div>
+<!-- rootnav1 -->
+
+<div class="rootnav">
+	<div class="biaoti">
+		<ul>
+			<li>联系我们</li>
+			<li>
+				<i class="iconfont icon-xiaoxi1"></i>
+				在线客服
+			</li>
+			<li>
+				<i class="iconfont icon-dianhua"></i>
+				400-9999-5999
+			</li>
+			<li>
+				<i class="iconfont icon-youjian"></i>
+				service@adidas.com
+			</li>
+			<li>
+				<i class="iconfont icon-shijian"></i>
+				9:30-10:00
+			</li>
+			<li><a href="#">订单跟踪</a></li>
+		</ul>
+	</div>
+</div>
+<!-- rootnav2 -->
+<div class="middlenav">
+	<div class="txtnav">
+		<dl>
+			<dt>产品</dt>
+			<dd><a href="#">鞋类</a></dd>
+			<dd><a href="#">服装</a></dd>
+			<dd><a href="#">配件</a></dd>
+			<dd><a href="#">新品上市</a></dd>
+			<dd><a href="#">折扣专区</a></dd>
+			<dd><a href="#">折扣专区</a></dd>
+			<!-- <dd>&nbsp;</dd> -->
+		</dl>
+		<dl>
+			<dt>产品</dt>
+			<dd><a href="#">鞋类</a></dd>
+			<dd><a href="#">服装</a></dd>
+			<dd><a href="#">配件</a></dd>
+			<dd><a href="#">新品上市</a></dd>
+			<dd><a href="#">折扣专区</a></dd>
+			<dd><a href="#">折扣专区</a></dd>
+		</dl>
+		<dl>
+			<dt>帮助中心</dt>
+			<dd><a href="#">尺码表</a></dd>
+			<dd><a href="#">adiCLUB会员</a></dd>
+			<dd><a href="#">门店查询</a></dd>
+			<dd><a href="#">关于我们</a></dd>
+			<dd><a href="#">企业社会责任</a></dd>
+			<dd><a href="#">adiCLUB会员</a></dd>
+		</dl>
+		<dl>
+			<dt>网站政策</dt>
+			<dd><a href="#">使用条款</a></dd>
+			<dd><a href="#">隐私声明</a></dd>
+			<dd><a href="#">物流配送规则</a></dd>
+			<dd><a href="#">退换货原则</a></dd>
+			<dd><a href="#">定制和印制服务条款</a></dd>
+			<dd><a href="#">adiCLUB会员规则</a></dd>
+		</dl>
+		<dl class="erwei">
+			<dt>关注我们</dt>
+			<dd>
+				<i class="iconfont icon-weibo"></i>
+				<i class="iconfont icon-weixin-copy"></i>
+			</dd>
+			<dd class="erweimabox">
+				<img src="img/erweima.jpg" alt="">
+				<p>扫一扫，关注adidas官方微信</p>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="littlepic">
+	<a href="#">我们接受下列付款方式：</a>
+	<a href="#"><img src="img/zhifubao.png" alt=""></a>
+	<a href="#"><img src="img/weixin.png" alt=""></a>
+	<a href="#"><img src="img/free.png" alt=""></a>
+</div>
+<!-- rootnav3 -->
+<div class="downnav">
+	<div class="txt">
+		<ul class="guo">
+			<li><img src="img/guoqi.png" alt=""></li>
+			<li>中国</li>
+			<li>隐私声明</li>
+			<li>使用条款</li>
+			<li>网站地图</li>
+		</ul>
+		<ul class="guoqi">
+			<li>苏ICP备14048805号-1 </li>
+			<li><img src="img/country.png" alt=""></li>
+			<li>&copy;2017 adidas</li>
+			<li><img src="img/guohui.png" alt=""></li>
+			<li>苏公网安备 32059002001401号</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/navlist.js"></script>
